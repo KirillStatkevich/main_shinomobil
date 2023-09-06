@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap" rel="stylesheet');
+
+body {
+    font-family: Ubuntu, serif;
+    background: rgb(162, 229, 255);
+}
+
+.nav-link {
+    color: yellow;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(143, 142, 142);
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-toggler {
+    background-color: rgb(143, 142, 142);
+}
+
+.sidebar {
+    color: rgb(0, 8, 238);
+    font-size: 2vw;
+}
+
+.card {
+    background: linear-gradient(90deg, #0ba55e 0%, #00009c 100%);
+    color: aquamarine;
+
+}
+
+.card a {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.slide-text {
+    color: aquamarine;
+    margin: auto auto;
+}
+
+.footer-text a {
+    color: yellow;
+    margin: auto auto;
+    text-decoration: none;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* Добавьте достаточную высоту, чтобы избежать скрытия других элементов */
+    height: 100px;
+    /* Добавьте другие стили в соответствии с вашими потребностями */
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+  }
+.footer,btn-outline-primary {
+    background: rgb(25, 25, 25);
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-anim {
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+
+
+/* mine */
+.video-text>p {
+    max-width: 100%;
+    text-align: center;
+    font-size: 3vw;
+    color: yellow;
+}
+.sidebar>p {
+    text-align: center;
+}
+
+.number {
+    text-decoration: none;
+    font-size: 6em;
+    text-align: center;
+    color: yellow
+}
+
+.carousel-innertext {
+    font-size: 2vw;
+    text-align: center;
+    color: rgb(0, 8, 238);
+}
+
+.zapisbottom button {
+    color: rgb(0, 8, 238);
+}
+
+.span {
+    color: rgb(0, 8, 238);
+}
+
+@keyframes myAnim {
+
+    0%,
+    100% {
+        transform: translateX(0%);
+        transform-origin: 50% 50%;
+    }
+
+    15% {
+        transform: translateX(-30px) rotate(-6deg);
+    }
+
+    30% {
+        transform: translateX(15px) rotate(6deg);
+    }
+
+    45% {
+        transform: translateX(-15px) rotate(-3.6deg);
+    }
+
+    60% {
+        transform: translateX(9px) rotate(2.4deg);
+    }
+
+    75% {
+        transform: translateX(-6px) rotate(-1.2deg);
+    }
+}
+
+@media(max-width:755px) {
+    .carousel-indicators {
+        display: none;
+    }
+
+    .video-text>p {
+        font-size: 7vw;
+        ;
+        display: flex;
+        text-align: center;
+    }
+
+    .number>p {
+        font-size: 10vw;
+        ;
+        display: flex;
+        justify-content: center;
+    }
+
+    .carousel-innertext {
+        font-size: 7vw;
+    }
+
+    p {
+        font-size: 7vw;
+        justify-content: center;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    table {
+        font-family: sans-serif;
+        text-align: center;
+        border-collapse: separate;
+        color: black;
+        border: 0.5vw solid #c4bf33;
+        border-radius: 2vw;
+    }
+
+    th {
+        font-size: 2vw;
+        padding: 1vw;
+    }
+
+    td {
+        background: white;
+        padding: 0.02vw;
+    }
+}
+
+@media (min-width: 755px) and (max-width: 900px) {
+    .carousel-indicators {
+        display: none;
+    }
+
+    .video-text>p {
+        font-size: 4vw;
+        ;
+        display: flex;
+        text-align: center;
+    }
+
+    .number>p {
+        font-size: 6vw;
+        ;
+        display: flex;
+        justify-content: center;
+    }
+
+    .carousel-innertext {
+        font-size: 3vw;
+    }
+
+    p {
+        font-size: 4vw;
+        justify-content: center;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    table {
+        font-family: sans-serif;
+        text-align: center;
+        border-collapse: separate;
+        color: black;
+        border: 0.5vw solid #c4bf33;
+        border-radius: 2vw;
+    }
+
+    th {
+        font-size: 2vw;
+        padding: 1vw;
+    }
+
+    td {
+        background: white;
+        padding: 0.02vw;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+    .video-text>p {
+        font-size: 4vw;
+        ;
+        display: flex;
+        text-align: center;
+    }
+
+    .number>p {
+        font-size: 5vw;
+        ;
+        display: flex;
+        justify-content: center;
+    }
+
+    .carousel-innertext {
+        font-size: 5vw;
+    }
+
+    p {
+        font-size: 5vw;
+        justify-content: center;
+    }
+
+}

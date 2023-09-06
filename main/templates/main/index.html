@@ -1,0 +1,358 @@
+{%extends 'main/layout.html'%}
+{%load static%}
+{%block title%} ShinoMobil {%endblock%}
+{%block section%}
+<section>
+  <div class="bgvideo">
+    <video src="{%static 'main/img/watermarked_preview.mp4'%}" type="video/mp4" autoplay muted loop></video>
+    <div class="effect"></div>
+    <div class="video-text">
+      <p>Передвижной шиномонтаж</p>
+      <p>ShinoMobil.by</p>
+      <p>БЫСТРО, КАЧЕСТВЕННО, УДОБНО!</p>
+      <div class="number">
+        <p>+375(29)522-33-22</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid mt-4">
+    <div class="row">
+      <div class="col-lg-1">
+      </div>
+      <div class="col-lg-10 col-md-12">
+        <div class="row">
+
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="d-block w-100">
+                  <div class="row">
+                    <div class="col-lg-8 col-md-6">
+                      <img src="{%static 'main/img/shinomobil.by.jpg '%}" class="w-100" alt="..."
+                        style="border-radius: 2vw">
+                    </div>
+                    <div class="col-lg-4 col-md-6 slide-text">
+                      <p class="carousel-innertext"> Мы предоставляем мобильный передвижной шиномонтаж в
+                        Минске с возможностью предварительной онлайн записи. </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="d-block w-100">
+                  <div class="row">
+                    <div class="col-lg-8 col-md-6">
+                      <img src="{%static 'main/img/job 1.jpg '%}" class="w-100" alt="..." style="border-radius: 2vw">
+                    </div>
+                    <div class="col-lg-4 col-md-6 slide-text">
+                      <p class="carousel-innertext">Адаптированное спецоборудование установленное на выездном
+                        шиномонтажном комплексе позволяет
+                        выполнять задачи разного уровня сложности.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="d-block w-100">
+                  <div class="row">
+                    <div class="col-lg-8 col-md-6">
+                      <img src="{%static 'main/img/job2.jpg '%}" class="w-100" alt="..." style="border-radius: 2vw">
+                    </div>
+                    <div class="col-lg-4 col-md-6 slide-text">
+                      <p class="carousel-innertext">Мы работаем с колёсами разных типоразмеров (R13-R20
+                        низкопрофильные,RSC,MFS и т.д.)
+                        легковых автомобилей, джипов и микроавтобусов.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="d-block w-100">
+                  <div class="row">
+                    <div class="col-lg-8 col-md-6">
+                      <img src="{%static 'main/img/job3.jpg '%}" class="w-100" alt="..." style="border-radius: 2vw">
+                    </div>
+                    <div class="col-lg-4 col-md-6 slide-text">
+                      <p class="carousel-innertext">Быстрый выезд в любое время суток и любую локацию! Работаем 24
+                        часа в сутки 7 дней в неделю!</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="d-block w-100">
+                  <div class="row">
+                    <div class="col-lg-8 col-md-6">
+                      <img src="{%static 'main/img/job 4.jpg '%}" class="w-100" alt="..." style="border-radius: 2vw">
+                    </div>
+                    <div class="col-lg-4 col-md-6 slide-text">
+                      <p class="carousel-innertext">Оказание улуг осуществляется как физическим лицам, так и
+                        юридичесим лицам с заключением договора!</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <div class="col-lg-12 col-md-12 text-center mt-4 carousel-innertext">
+            <p>Звоните сейчас!</p>
+          </div>
+          <div class="col-lg-12 col-md-12 text-center">
+            <a href="tel:+375295223322"><img class="call-anim" style="width: 40px;"
+                src="{%static 'main/img/phone.png '%}" alt="..."></a>
+          </div>
+          <div class="col-lg-12 col-md-12 text-center mt-4 zapisbottom">
+            <a href="online"><button type="button"  class="btn btn-outline-primary btn-lg my-4"
+                >Записаться
+                онлайн</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="pricestext">
+        <div style="background-color: #000053c7; border-radius: 1vw">
+          <p style="text-align: center;color: yellow;" class="carousel-innertext">ПРАЙС</p>
+        </div>
+        <div>
+          <p style="text-align: center;color: black" class="carousel-innertext">Выезд с 8:00 до 22:00 - <span
+              class="span">15р</span> , с 22:00 до 8:00 - <span class="span">25р</span>
+          </p>
+        </div>
+        <div>
+          <p style="text-align: center;color: black" class="carousel-innertext">Мин.выезд день/ночь - <span
+              class="span">20р/30р</span></p>
+        </div>
+        <div>
+          <p style="text-align: center;color: black" class="carousel-innertext">Выезд в пределах МКАД на переобувку шин
+            <span class="span">от 3-х машин
+              БЕСПЛАТНО!!!</span>
+          </p>
+        </div>
+        <div>
+          <p style="text-align: center;color: black;" class="carousel-innertext">Выезд за МКАД <span
+              class="span">1.5р/1км</span> в одну сторону</p>
+          <div class="prices">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-4 col-md-12 footer-text text-center prices">
+                  <h1>ЛЕГКОВЫЕ АВТОМОБИЛИ</h1>
+                  <table>
+                    <tr>
+                      <td>Услуги</td>
+                      <td>R13</td>
+                      <td>R14</td>
+                      <td>R15/16</td>
+                      <td>R17</td>
+                      <td>R18</td>
+                      <td>R19</td>
+                      <td>R20/21</td>
+                    </tr>
+                    <tr>
+                      <td>Снятие колеса</th>
+                      <td>2</td>
+                      <td>2</td>
+                      <td>2</td>
+                      <td>2</td>
+                      <td>2</td>
+                      <td>2</td>
+                      <td>2</td>
+                    </tr>
+                    <tr>
+                      <td>Установка колеса</td>
+                      <td>2</td>
+                      <td>2</td>
+                      <td>2</td>
+                      <td>2</td>
+                      <td>2</td>
+                      <td>2</td>
+                      <td>2</td>
+                    </tr>
+                    <tr>
+                      <td>Демонтаж</td>
+                      <td>1,5</td>
+                      <td>1,75</td>
+                      <td>2,25</td>
+                      <td>2,5</td>
+                      <td>2,75</td>
+                      <td>3,25</td>
+                      <td>3,75</td>
+                    </tr>
+                    <tr>
+                      <td>Монтаж</td>
+                      <td>1,5</td>
+                      <td>1,75</td>
+                      <td>2,25</td>
+                      <td>2,5</td>
+                      <td>2,75</td>
+                      <td>3,25</td>
+                      <td>3,75</td>
+                    </tr>
+                    <tr>
+                      <td>Баланси <br> ровка</br></td>
+                      <td>2,5</td>
+                      <td>3</td>
+                      <td>3,5</td>
+                      <td>3,5</td>
+                      <td>3,5</td>
+                      <td>4</td>
+                      <td>4,5</td>
+                    </tr>
+                    <tr>
+                      <td>Комплекс 1 колеса</td>
+                      <td>9,5</td>
+                      <td>10,5</td>
+                      <td>12</td>
+                      <td>12,5</td>
+                      <td>13</td>
+                      <td>14,5</td>
+                      <td>16</td>
+                    </tr>
+                    <tr>
+                      <td>Комплекс 4 колес</td>
+                      <td>38</td>
+                      <td>42</td>
+                      <td>48</td>
+                      <td>50</td>
+                      <td>52</th>
+                      <td>58</td>
+                      <td>54</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="col-lg-4 col-md-12 footer-text text-center prices">
+                  <h1>ВНЕДОРОЖНИК/МИКРОАВТОБУС</h1>
+                  <table>
+                    <tr>
+                      <td>Услуги</td>
+                      <td>R13/14</td>
+                      <td>R15/16</td>
+                      <td>R17/18</td>
+                      <td>R19</td>
+                      <td>R20/21</td>
+                    </tr>
+                    <tr>
+                      <td>Снятие колеса</th>
+                      <td>2,25</td>
+                      <td>2,25</td>
+                      <td>2,25</td>
+                      <td>2,25</td>
+                      <td>2,25</td>
+                    </tr>
+                    <tr>
+                      <td>Установка колеса</td>
+                      <td>2,25</td>
+                      <td>2,25</td>
+                      <td>2,25</td>
+                      <td>2,25</td>
+                      <td>2,25</td>
+                    </tr>
+                    <tr>
+                      <td>Демонтаж</td>
+                      <td>2,5</td>
+                      <td>2,75</td>
+                      <td>3</td>
+                      <td>3,25</td>
+                      <td>4</td>
+                    </tr>
+                    <tr>
+                      <td>Монтаж</td>
+                      <td>2,5</td>
+                      <td>2,75</td>
+                      <td>3</td>
+                      <td>3,25</td>
+                      <td>4</td>
+                    </tr>
+                    <tr>
+                      <td>Баланси <br> ровка</br></td>
+                      <td>4</td>
+                      <td>4</td>
+                      <td>4</td>
+                      <td>4</td>
+                      <td>4,5</td>
+                    </tr>
+                    <tr>
+                      <td>Комплекс 1 колеса</td>
+                      <td>13,5</td>
+                      <td>14</td>
+                      <td>14,5</td>
+                      <td>15</td>
+                      <td>17</td>
+                    </tr>
+                    <tr>
+                      <td>Комплекс 4 колес</td>
+                      <td>54</td>
+                      <td>56</td>
+                      <td>58</td>
+                      <td>60</td>
+                      <td>68</th>
+                    </tr>
+                  </table>
+                </div>
+                <div class="col-lg-4 col-md-12 footer-text text-center prices">
+                  <h1>ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ</h1>
+                  <table>
+                    <tr>
+                      <td>Замена вентеля</td>
+                      <td>2р</td>
+                    </tr>
+                    <tr>
+                      <td>Чистка диска/герметизация</th>
+                      <td>от 2р</td>
+                    </tr>
+                    <tr>
+                      <td>Ремонт прокола</td>
+                      <td>от 13р</td>
+                    </tr>
+                    <tr>
+                      <td>RUN FLAT</td>
+                      <td>+30% к стоимости</td>
+                    </tr>
+                    <tr>
+                      <td>Утилизация шин</td>
+                      <td>5р за 1 колесо</td>
+                    </tr>
+                    <tr>
+                      <td>Прикурка</td>
+                      <td>30р</td>
+
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p style="text-align: center;color: black" class="carousel-innertext">*Все цены указаны в Белорусских рублях.
+        </p>
+      </div>
+      <div class="row" style="padding: 4vw">
+      </div>
+
+
+</section>
+{%endblock%}
